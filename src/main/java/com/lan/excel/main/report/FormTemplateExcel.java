@@ -24,7 +24,9 @@ public class FormTemplateExcel {
 	Logger log = LoggerFactory.getLogger(getClass());
 
 	public static void main(String[] args) {
+		System.out.println("start...");
 		new FormTemplateExcel().generateRiskReport();
+		System.out.println("finish");
 	}
 	
 	private void generateRiskReport(){
